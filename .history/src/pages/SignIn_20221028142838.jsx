@@ -12,7 +12,7 @@ const SignIn = () => {
     /* Created a hook for show password */
     const [showPassword, setShowPassword] = useState(false);
 
-    const navigate = useNavigate();
+    const navigate = useNavigate
    /*  created a hook for the formdata */
     const [formData, setFormData] = useState({
     /*  Initial value was an empty string */

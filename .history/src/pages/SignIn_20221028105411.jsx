@@ -1,7 +1,7 @@
 import React from 'react';
 import {useState} from 'react';
 import {AiFillEyeInvisible, AiFillEye} from 'react-icons/ai'
-import { Link, useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import OAuth from '../components/OAuth';
 import { signInWithEmailAndPassword, getAuth } from 'firebase/auth';
 import {toast} from "react-toastify"
@@ -11,8 +11,7 @@ import { async } from '@firebase/util';
 const SignIn = () => {
     /* Created a hook for show password */
     const [showPassword, setShowPassword] = useState(false);
-
-    const navigate = useNavigate();
+    
    /*  created a hook for the formdata */
     const [formData, setFormData] = useState({
     /*  Initial value was an empty string */
