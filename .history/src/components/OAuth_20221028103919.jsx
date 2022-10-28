@@ -31,13 +31,12 @@ const OAuth = () => {
           timestamp: serverTimestamp(),
         });
       }
-
-      /* redirect the user to home page */
+      
       navigate("/");
 
-      /* catching error */
         } catch (error) {
             toast.error("Could not authorize with Google")
+            console.log(error)
         }
     }
     return (

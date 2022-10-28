@@ -1,26 +1,17 @@
 import { getAuth, GoogleAuthProvider, signInWithPopup } from 'firebase/auth';
-import { doc, getDoc, serverTimestamp, setDoc } from 'firebase/firestore';
 import React from 'react';
 import {FcGoogle} from 'react-icons/fc'
 import { toast } from 'react-toastify';
-import { db } from "../firebase";
-import { useNavigate } from "react-router-dom";
-
 const OAuth = () => {
-    const navigate = useNavigate();
-
     async function onGoogleClick(){
         try {
-/*             Firstly sing up the person with pop up
- */         const auth = getAuth();
+            const auth = getAuth();
             const provider = new GoogleAuthProvider();
             const result = await signInWithPopup(auth, provider);
-            /* Got the user using result which is coming as a promise from signInWithPopup */
             const user = result.user;
             
-/*     check if the user already exists 
+            // check for the user
 
-    */
       const docRef = doc(db, "users", user.uid);
       const docSnap = await getDoc(docRef);
 
@@ -32,12 +23,9 @@ const OAuth = () => {
         });
       }
 
-      /* redirect the user to home page */
-      navigate("/");
-
-      /* catching error */
         } catch (error) {
             toast.error("Could not authorize with Google")
+            console.log(error)
         }
     }
     return (

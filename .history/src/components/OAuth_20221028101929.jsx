@@ -19,7 +19,7 @@ const OAuth = () => {
             const user = result.user;
             
 /*     check if the user already exists 
-
+            
     */
       const docRef = doc(db, "users", user.uid);
       const docSnap = await getDoc(docRef);
@@ -31,13 +31,11 @@ const OAuth = () => {
           timestamp: serverTimestamp(),
         });
       }
-
-      /* redirect the user to home page */
       navigate("/");
 
-      /* catching error */
         } catch (error) {
             toast.error("Could not authorize with Google")
+            console.log(error)
         }
     }
     return (
