@@ -52,7 +52,7 @@ const EditListing = () => {
 
     const params = useParams();
 
-/* protect this page from theperson that is not the owner of the listing.by just checking if the use of ref is not equal to the authorization user id */
+/*     protect this page from theperson that is not the owner of the listing.by just checking if the use of ref is not equal to the authorization user id */
     useEffect(()=>{
         if(listing && listing.userRef !== auth.currentUser.uid){
             toast.error("You can not edit this listing")
