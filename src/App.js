@@ -12,6 +12,7 @@ import 'react-toastify/dist/ReactToastify.css';
 import CreateListing from "./pages/CreateListing"
 import EditListing from "./pages/EditListing"
 import Listing from "./pages/Listing";
+import Category from "./pages/Category"
 
 
 function App() {
@@ -32,6 +33,7 @@ function App() {
             <Route path="/category/:categoryName/:listingId" element={<Listing />}
             />
             <Route path="/offers" element={<Offers/>}/>
+            <Route path="/category/:categoryName" element={<Category/>}/>
             {/* Protected the profile page by putting it inside another router
             and with the path of profile */}
             <Route path="/create-listing" element={<PrivateRoute/>}>
