@@ -1,3 +1,33 @@
+# React.js & Firebase Project - ReactJS 18, Firebase 9 Project
+
+
+React.js and Firebase portfolio project. Build Realtor (Real estate) clone using React js 18, Firebase 9, Tailwind CSS 3
+
+![screencapture-realtor-clone-react-blond-vercel-app-2022-11-15-12_21_34](https://user-images.githubusercontent.com/11077068/201957419-742ac966-a3c7-431b-93bd-f89b60f65fb6.png)
+
+ ### Project Description
+- Realtor.com is a real estate listings website operated by the News Corp subsidiary Move, Inc. and based in Santa Clara, California. It is the second most visited real estate listings website in the United States as of 2021, with over 100 million monthly active users. This project focus on build a realtor clone application.
+
+ ### Stacks
+ - Build Realtor (Real estate) clone using React js 18, Firebase 9, Tailwind CSS 3, and React router 6.
+
+ ### Screens
+ 
+ 
+![screencapture-realtor-clone-react-blond-vercel-app-2022-11-15-12_21_34](https://user-images.githubusercontent.com/11077068/201959452-01580f92-613f-4f42-9cd7-c800e7099031.png)
+
+![screencapture-realtor-clone-react-blond-vercel-app-profile-2022-11-15-12_30_08](https://user-images.githubusercontent.com/11077068/201959465-9e779363-463b-46b9-93f2-05ef7c372b55.png)
+
+![screencapture-realtor-clone-react-blond-vercel-app-create-listing-2022-11-15-12_30_20](https://user-images.githubusercontent.com/11077068/201959490-76ea9147-aef8-45e2-bf49-3ba03f1280e3.png)
+
+### Mobile
+
+
+![screencapture-realtor-clone-react-blond-vercel-app-2022-11-15-12_28_52](https://user-images.githubusercontent.com/11077068/201960237-4e24456c-8857-45e8-8531-ea3f69773181.png)
+
+![screencapture-realtor-clone-react-blond-vercel-app-category-sale-J184UWtV8lm724yWXgCK-2022-11-15-12_29_21](https://user-images.githubusercontent.com/11077068/201960243-9d2ba727-0f36-4418-bb53-6106829906c6.png)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
