@@ -10,6 +10,27 @@ React.js and Firebase portfolio project. Build Realtor (Real estate) clone using
 
  ### Stacks
  - Build Realtor (Real estate) clone using React js 18, Firebase 9, Tailwind CSS 3, and React router 6.
+ - Create a React js project from scratch
+ - Use Firebase auth for complete authentication
+ - Use Firebase Firestore to store and fetch data
+ - Sign up/in the users using username/password and Google oAuth using Firebase auth
+ - Add forgot password functionality using Firebase auth
+ - Work with latest versions like React js 18, Firebase 9 and Tailwind CSS 3
+ - CRUD operations including create, read, update and delete using Firebase Firestore
+ - React router version 6 (latest version) to create routes, get the params and redirect
+ - Create pages and routes in a react project
+ - React toastify to create nice notifications
+ - Create private route and custom hook for protecting the user profile page
+ - Spinner and loader
+ - React event listeners like onChange and onSubmit
+ - Reusable component such as listing cards
+ - Create an image slider using Swiper js latest version
+ - Add map to the page using leaflet and react leaflet packages
+ - Deploy to vercel
+ - Google geolocation api and how to convert address to latitude and longitude
+ - Tailwind CSS 3 to style a react project
+ - useEffect and useState react hooks
+
 
  ### Screens
  
